@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM WEBSITE</title>
+    <link rel="stylesheet" href="gymstyle.css">
+</head>
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://c.wallhere.com/photos/01/85/gyms_working_out_dumbbells_women_fitness_model-1537083.jpg!d);
+    }
+
+    .left {
+        display: inline-block;
+        left: 65px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 136px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 26px;
+        line-height: 19px;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 30px auto;
+        padding: 3px;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px;
+        font-size: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blue;
+    }
+
+    .container {
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 2px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo-->
+        <div class="left">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.GATB8FxUG00eRpodKJMTIQHaHa&pid=Api&P=0" alt="">
+            <div>Akshita Fitness</div>
+        </div>
+
+        <!-- mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT-US</a></li>
+                <li><a href="#">FITNESS CENTRE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </ul>
+        </div>
+
+        <!-- right box for buttons-->
+        <div class="right">
+            <button class="btn">CALL US NOW</button>
+            <button class="btn">EMAIL-US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN BEST GYM OF DELHI NOW..</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+        </form>
+        <button class="btn">SUBMIT</button>
+    </div>
+</body>
+
+</html>
